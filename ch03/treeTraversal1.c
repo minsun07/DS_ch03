@@ -23,7 +23,7 @@ void deleteAll(struct node* p) {
 		deleteAll(p->rlink);
 		free(p);
 	}
-}
+} 
 
 //전위운행
 void preOrder(struct node* p) {
