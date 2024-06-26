@@ -18,5 +18,20 @@
     <ClCompile Include="treeTraversal1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="treeTraversal2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="KruskalMinSpannigTree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimMinSpannigTree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="graphArray.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="graphLinkedList.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

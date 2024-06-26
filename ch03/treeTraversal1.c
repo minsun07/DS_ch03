@@ -19,8 +19,8 @@ struct node* createNode(char data) {
 //ÀÌÁøÆ®¸® ¼Ò¸ê
 void deleteAll(struct node* p) {
 	if (p != NULL) {
-		deleteAll(p->llink);
-		deleteAll(p->rlink);
+		deleteAll(p->llink); 
+		deleteAll(p->rlink); 
 		free(p);
 	}
 } 
@@ -38,7 +38,7 @@ void preOrder(struct node* p) {
 void inOrder(struct node* p) {
 	if (p != NULL) {
 		inOrder(p->llink);    //L
-		printf("%c", p->data); //D
+	   	printf("%c", p->data); //D
 		inOrder(p->rlink);    //R
 	}
 }
